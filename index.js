@@ -106,7 +106,7 @@ let { reagir } = require(__dirname + "/framework/app");
 var session = conf.session;
 const prefixe = conf.PREFIXE;
 // channel link
-global.link = "https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g";
+global.link = "https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x";
 
 let lastApiCall = 0;
 async function authentification() {
@@ -167,7 +167,7 @@ setTimeout(() => {
             logger: pino({
                 level: "silent"
             }),
-            browser: ["TKM-bot", "safari", "1.0.0"],
+            browser: ["King Marisel", "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -279,8 +279,8 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : "";
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const danny = "2348098309204";
-            const tkm = "263785028126";
+            const marisel = "254740007567";
+            const King Marisel = "254740007567";
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [
                 servBot,
@@ -305,7 +305,7 @@ setTimeout(() => {
                     }
                 );
             }
-            console.log("\t [][]...{TKM-bot}...[][]");
+            console.log("\t [][]...{KING MARISEL}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message comming from the group : " + nomGroupe);
