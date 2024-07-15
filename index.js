@@ -167,7 +167,7 @@ setTimeout(() => {
             logger: pino({
                 level: "silent"
             }),
-            browser: ["King Marisel", "safari", "1.0.0"],
+            browser: ["TKM-bot", "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
